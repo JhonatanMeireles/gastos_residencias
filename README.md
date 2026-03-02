@@ -48,8 +48,8 @@ cd backend/GastosResidenciais.API
 dotnet run
 ```
 
-A API estará disponível em `http://localhost:5000`.  
-A documentação Swagger estará em `http://localhost:5000/swagger`.
+A API estará disponível em `http://localhost:5001`.  
+A documentação Swagger estará em `http://localhost:5001/swagger`.
 
 > O banco de dados SQLite (`gastos.db`) é criado automaticamente na primeira execução.
 
@@ -69,7 +69,7 @@ npm run dev
 
 O front-end estará disponível em `http://localhost:5173`.
 
-> O Vite está configurado com proxy para redirecionar chamadas `/api` ao backend em `http://localhost:5000`.
+> O Vite está configurado com proxy para redirecionar chamadas `/api` ao backend em `http://localhost:5001`.
 
 ---
 
